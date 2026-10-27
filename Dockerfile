@@ -14,7 +14,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN npm install -g \
-        opencode-ai@latest \
+        opencode/cli@latest \
         typescript-language-server@latest \
         typescript@latest \
     && npm cache clean --force
