@@ -20,7 +20,7 @@ services:
       - key: OPENCODE_SERVER_USERNAME
         value: opencode
       - key: OPENCODE_SERVER_COMMAND
-        value: web
+        value: serve
       - key: ANTHROPIC_API_KEY
         sync: false
       - key: OPENROUTER_API_KEY
